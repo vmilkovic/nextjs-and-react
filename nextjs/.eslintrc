@@ -1,0 +1,21 @@
+{
+  "env": {
+    "browser": true,
+    "commonjs": true,
+    "es6": true,
+    "node": true
+  },
+  "extends": ["next", "next/core-web-vitals"],
+  "parser": "babel-eslint",
+  "rules": {
+    "react/react-in-jsx-scope": "off",
+    "indent": ["off", 2],
+    "linebreak-style": ["warn", "unix"],
+    "no-console": "off",
+    "no-mixed-spaces-and-tabs": "warn",
+    "no-unused-vars": "off",
+    "react/prop-types": ["warn", { "skipUndeclared": true }],
+    "quotes": ["off", "single"],
+    "semi": ["off", "always"]
+  }
+}
